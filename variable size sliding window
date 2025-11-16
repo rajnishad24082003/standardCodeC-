@@ -1,0 +1,11 @@
+void variableSizeSlidingWindow(string &str){
+  int l=0,r=0,len=str.size();
+
+  while(r<len){
+    while(l<=r && condition){
+      ++l;
+    }
+      ++r;
+  }
+    
+}
